@@ -1,0 +1,1 @@
+export const KEY_UPLOAD = 'upload_file';
