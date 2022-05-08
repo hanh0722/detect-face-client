@@ -79,7 +79,7 @@ function App() {
         className={styles.button}
         type="submit"
       >
-        Upload
+        Detect Face
       </Button>
 
       {file && (
@@ -94,7 +94,6 @@ function App() {
           <Image ref={imageRef} src={genImageURL(file)} />
         </div>
       )}
-      {!isLoading && !styleBoundingBox && <p className={styles.error}>Result: Undetect Face</p>}
     </form>
   );
 }
